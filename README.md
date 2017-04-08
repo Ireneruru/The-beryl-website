@@ -15,8 +15,8 @@ The user can copy the imdb.bl code to the code area on the website and easily tr
 
 Note:
 Below is an example configuration on my computer:
-
-# This is the main Apache HTTP server configuration file.  It contains the
+ 
+ ```# This is the main Apache HTTP server configuration file.  It contains the
 # configuration directives that give the server its instructions.
 # See <URL:http://httpd.apache.org/docs/2.4/> for detailed information.
 # In particular, see 
@@ -551,4 +551,4 @@ SSLRandomSeed startup builtin
 SSLRandomSeed connect builtin
 </IfModule>
 
-Include /private/etc/apache2/other/*.conf
+Include /private/etc/apache2/other/*.conf ```
