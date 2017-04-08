@@ -1,0 +1,76 @@
+td {
+    background-color: #F7F7F7;
+}
+.li {
+    color: #FFFFFF;
+}
+.left {
+    font-weight:bold;
+    position:fixed;
+    margin-right:0px;
+    width:9%;
+    top:36px;
+}
+.w3-sidenav {
+    background:#222;
+    position:relative;
+    width:inherit;
+    height:inherit;
+}
+.container {
+    padding:5px;
+}
+.window {
+    margin-left:10%;
+    width:80%;
+}
+#editor {
+    float:left;
+    height: 83%;
+    width: 60%;
+}
+#latex {
+    float:right;
+    width:37%;
+    padding: 5px;
+    height:83%;
+    background-color:white;
+    overflow:scroll;
+    border:gainsboro ridge thick;
+}
+#output {
+    float:right;
+    width:27%;
+    height:100%;
+    overflow: scroll;
+    border:gainsboro dotted thick;
+}
+#chart {
+    float:left;
+    width:70%;
+    height:100%;
+    overflow: scroll;
+    border:gainsboro dotted thick;
+}
+#tensorflow{
+    height:600px;
+    font-family: "monospace";
+    overflow: scroll;
+}
+.leftname
+{
+    float:left;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+.rightname
+{
+    float:right;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+.footer
+{
+    background-color: black;
+    height: 45px; width:100%;
+}
